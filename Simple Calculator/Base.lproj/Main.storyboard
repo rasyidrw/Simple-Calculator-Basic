@@ -77,9 +77,9 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Output" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMy-aX-ocX">
-                                <rect key="frame" x="180" y="337" width="54" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMy-aX-ocX">
+                                <rect key="frame" x="150" y="342" width="114" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -87,14 +87,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="xFZ-Yx-Q4j" firstAttribute="top" secondItem="3L3-C4-y4H" secondAttribute="bottom" constant="40" id="0Zt-HU-PvH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hMy-aX-ocX" secondAttribute="trailing" constant="180" id="0fE-g0-Isp"/>
                             <constraint firstItem="xFZ-Yx-Q4j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="Cuk-YH-jFq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hMy-aX-ocX" secondAttribute="trailing" constant="150" id="GQ0-XU-xxs"/>
                             <constraint firstItem="3L3-C4-y4H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="S12-Ai-PXl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3L3-C4-y4H" secondAttribute="trailing" constant="100" id="V8v-It-w1H"/>
-                            <constraint firstItem="hMy-aX-ocX" firstAttribute="top" secondItem="xFZ-Yx-Q4j" secondAttribute="bottom" constant="45" id="cVW-Mv-t9C"/>
+                            <constraint firstItem="hMy-aX-ocX" firstAttribute="top" secondItem="xFZ-Yx-Q4j" secondAttribute="bottom" constant="50" id="cR6-93-vtS"/>
+                            <constraint firstItem="hMy-aX-ocX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="dMa-2n-eg7"/>
                             <constraint firstItem="3L3-C4-y4H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="laC-73-mp2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xFZ-Yx-Q4j" secondAttribute="trailing" constant="120" id="v3Q-zE-ziy"/>
-                            <constraint firstItem="hMy-aX-ocX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="180" id="yny-qv-Ynp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -106,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-57" y="127"/>
+            <point key="canvasLocation" x="-57.971014492753625" y="126.5625"/>
         </scene>
     </scenes>
 </document>

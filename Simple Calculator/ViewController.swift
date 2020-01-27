@@ -34,7 +34,7 @@ class ViewController: UIViewController {
 
     func counting(aritmatik : String){
         if textField1.text == "" || textField2.text == "" {
-            outputLabel.text = "Input!"
+            showAlert(title: "Alert", message: "Input first!")
         }
         else {
             let input1 = Double(textField1.text!)
@@ -54,8 +54,19 @@ class ViewController: UIViewController {
                 break
             }
             
-            outputLabel.text = String(format: "%.0f", output!)
+            outputLabel.text = String(output!)
         }
+    }
+    
+    func showAlert(title : String, message : String){
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        let ok = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+        
+        alert.addAction(ok)
+        
+        present(alert, animated: true, completion: nil)
     }
 }
 
