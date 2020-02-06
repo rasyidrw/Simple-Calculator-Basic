@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27FB4F7D23EBB7E100DFED47 /* HitungPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB4F7C23EBB7E100DFED47 /* HitungPresenter.swift */; };
+		27FB4F7F23EBB88200DFED47 /* HitungProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB4F7E23EBB88200DFED47 /* HitungProtocol.swift */; };
 		27FF417F23DEC7BD00816DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF417E23DEC7BD00816DE5 /* AppDelegate.swift */; };
 		27FF418123DEC7BD00816DE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF418023DEC7BD00816DE5 /* SceneDelegate.swift */; };
 		27FF418323DEC7BD00816DE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF418223DEC7BD00816DE5 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27FB4F7C23EBB7E100DFED47 /* HitungPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitungPresenter.swift; sourceTree = "<group>"; };
+		27FB4F7E23EBB88200DFED47 /* HitungProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitungProtocol.swift; sourceTree = "<group>"; };
 		27FF417B23DEC7BD00816DE5 /* Simple Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FF417E23DEC7BD00816DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27FF418023DEC7BD00816DE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				27FF418723DEC7BF00816DE5 /* Assets.xcassets */,
 				27FF418923DEC7BF00816DE5 /* LaunchScreen.storyboard */,
 				27FF418C23DEC7BF00816DE5 /* Info.plist */,
+				27FB4F7C23EBB7E100DFED47 /* HitungPresenter.swift */,
+				27FB4F7E23EBB88200DFED47 /* HitungProtocol.swift */,
 			);
 			path = "Simple Calculator";
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				27FF418323DEC7BD00816DE5 /* ViewController.swift in Sources */,
 				27FF417F23DEC7BD00816DE5 /* AppDelegate.swift in Sources */,
 				27FF418123DEC7BD00816DE5 /* SceneDelegate.swift in Sources */,
+				27FB4F7D23EBB7E100DFED47 /* HitungPresenter.swift in Sources */,
+				27FB4F7F23EBB88200DFED47 /* HitungProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
